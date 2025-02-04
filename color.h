@@ -98,22 +98,20 @@ void inicio() {
     printf("\n\n");
     system("color a");
 
-    centrar_printf("   SSSSSSSSSSSSSSS EEEEEEEEEEEEEEEEEEEEEEIIIIIIIIIIMMMMMMMM               MMMMMMMM", GREEN);
-    centrar_printf(" SS:::::::::::::::SE::::::::::::::::::::EI::::::::IM:::::::M             M:::::::M", YELLOW);
-    centrar_printf("S:::::SSSSSS::::::SE::::::::::::::::::::EI::::::::IM::::::::M           M::::::::M", BLUE);
-    centrar_printf("S:::::S     SSSSSSSEE::::::EEEEEEEEE::::EII::::::IIM:::::::::M         M:::::::::M", RED);
-    centrar_printf("S:::::S              E:::::E       EEEEEE  I::::I  M::::::::::M       M::::::::::M", CYAN);
-    centrar_printf("S:::::S              E:::::E               I::::I  M:::::::::::M     M:::::::::::M", MAGENTA);
-    centrar_printf(" S::::SSSS           E::::::EEEEEEEEEE     I::::I  M:::::::M::::M   M::::M:::::::M", WHITE);
-    centrar_printf("  SS::::::SSSSS      E:::::::::::::::E     I::::I  M::::::M M::::M M::::M M::::::M", GREEN);
-    centrar_printf("    SSS::::::::SS    E:::::::::::::::E     I::::I  M::::::M  M::::M::::M  M::::::M", CYAN);
-    centrar_printf("       SSSSSS::::S   E::::::EEEEEEEEEE     I::::I  M::::::M   M:::::::M   M::::::M", BLUE);
-    centrar_printf("            S:::::S  E:::::E               I::::I  M::::::M    M:::::M    M::::::M", RED);
-    centrar_printf("            S:::::S  E:::::E       EEEEEE  I::::I  M::::::M     MMMMM     M::::::M", MAGENTA);
-    centrar_printf("SSSSSSS     S:::::SEE::::::EEEEEEEE:::::EII::::::IIM::::::M               M::::::M", YELLOW);
-    centrar_printf("S::::::SSSSSS:::::SE::::::::::::::::::::EI::::::::IM::::::M               M::::::M", BRIGHT_GREEN);
-    centrar_printf("S:::::::::::::::SS E::::::::::::::::::::EI::::::::IM::::::M               M::::::M", BRIGHT_BLUE);
-    centrar_printf(" SSSSSSSSSSSSSSS   EEEEEEEEEEEEEEEEEEEEEEIIIIIIIIIIMMMMMMMM               MMMMMMMM", BRIGHT_RED);
+centrar_printf("╔╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╗",GREEN);
+centrar_printf("╠╬╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╬╣",GREEN);
+centrar_printf("╠╣                                         ╠╣",GREEN);
+centrar_printf("╠╣                                         ╠╣",GREEN);
+centrar_printf("╠╣   _____ _   _ _____ _____ _____ ____    ╠╣",GREEN);
+centrar_printf("╠╣  |_   _| \ | |_   _/ ____|_   _/ __ \   ╠╣",GREEN);
+centrar_printf("╠╣    | | |  \| | | || |      | || |  | |  ╠╣",GREEN);
+centrar_printf("╠╣    | | | . ` | | || |      | || |  | |  ╠╣",GREEN);
+centrar_printf("╠╣   _| |_| |\  |_| || |____ _| || |__| |  ╠╣",GREEN);
+centrar_printf("╠╣  |_____|_| \_|_____\_____|_____\____/   ╠╣",GREEN);
+centrar_printf("╠╣                                         ╠╣",GREEN);
+centrar_printf("╠╣                                         ╠╣",GREEN);
+centrar_printf("╠╬╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╦╬╣",GREEN);
+centrar_printf("╚╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╩╝",GREEN);
 
     printf("\n\n");
     mostrar_barra_cargando(1);
